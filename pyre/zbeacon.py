@@ -34,7 +34,7 @@ from pyre import zhelper
 
 logger = logging.getLogger(__name__)
 
-INTERVAL_DFLT = 1.0
+INTERVAL_DFLT = 5.0
 BEACON_MAX = 255      # Max size of beacon data
 
 class ZBeacon(object):
